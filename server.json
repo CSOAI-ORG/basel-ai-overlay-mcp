@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CSOAI-ORG/basel-ai-overlay-mcp",
+  "version": "1.0.0",
+  "description": "Basel III + SR 11-7 + ECB TRIM AI/ML model risk management for banks deploying AI in credit, cap...",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSOAI-ORG/basel-ai-overlay-mcp",
+    "source": "https://github.com/CSOAI-ORG/basel-ai-overlay-mcp"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "basel-ai-overlay-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "python",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

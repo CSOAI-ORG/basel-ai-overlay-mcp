@@ -1,0 +1,36 @@
+# basel-ai-overlay-mcp
+# Basel III + SR 11-7 + ECB TRIM AI/ML model risk management for banks deploying AI in credit, capital, treasury, AML/CFT.
+
+## Install
+```bash
+pip install basel-ai-overlay-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label + on-premise.
+
+## Tools (5)
+
+### `model_risk_tier(query, api_key)`
+Tier AI/ML models per SR 11-7 materiality framework
+
+### `validation_requirements(query, api_key)`
+Independent model validation requirements + frequency
+
+### `ecb_trim_check(query, api_key)`
+ECB TRIM internal model investigation areas
+
+### `ifrs9_ecl_audit(query, api_key)`
+IFRS 9 Expected Credit Loss AI model governance
+
+### `frtb_market_risk(query, api_key)`
+FRTB internal model approach AI/ML usage check
+
+## Pairs with
+- `meok-attestation-api` — HMAC signing for compliance certs
+- `meok-attestation-verify` — public verification
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT

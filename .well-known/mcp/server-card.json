@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "name": "basel-ai-overlay-mcp",
+  "version": "1.0.0",
+  "title": "Basel III + AI Model Risk",
+  "description": "Basel III + SR 11-7 + ECB TRIM AI/ML model governance for banks.",
+  "homepage": "https://meok.ai",
+  "repository": "https://github.com/meok-ai-labs/basel-ai-overlay-mcp",
+  "license": "MIT",
+  "author": {
+    "name": "MEOK AI Labs",
+    "email": "hello@meok.ai",
+    "url": "https://meok.ai"
+  },
+  "categories": [
+    "industry"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "ai-governance",
+    "compliance",
+    "meok"
+  ],
+  "support_url": "https://github.com/meok-ai-labs",
+  "contact_email": "hello@meok.ai",
+  "endpoints": {
+    "free_tier": {
+      "calls_per_day": 10
+    },
+    "pro": "https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836",
+    "enterprise": "hello@meok.ai"
+  }
+}

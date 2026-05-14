@@ -1,0 +1,13 @@
+# Basel III + AI Model Risk Management MCP - Auto-trigger Rules
+
+When the user asks about Basel III, SR 11-7, ECB TRIM, bank AI, model risk, IFRS 9, FRTB, use basel-ai-overlay-mcp tools:
+
+- **model_risk_tier**: Tier AI/ML models per SR 11-7 materiality framework
+- **validation_requirements**: Independent model validation requirements + frequency
+- **ecb_trim_check**: ECB TRIM internal model investigation areas
+- **ifrs9_ecl_audit**: IFRS 9 Expected Credit Loss AI model governance
+- **frtb_market_risk**: FRTB internal model approach AI/ML usage check
+
+Install: `pip install basel-ai-overlay-mcp`
+
+By MEOK AI Labs — industry governance MCP. Pairs with meok-attestation-api for signed compliance certs.
