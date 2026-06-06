@@ -1,0 +1,33 @@
+name: basel-ai-overlay-mcp
+description: 'MCP server: basel-ai-overlay-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/basel-ai-overlay-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: model_risk_tier
+  description: Tier AI/ML models per SR 11-7 materiality framework
+- name: validation_requirements
+  description: Independent model validation requirements + frequency
+- name: ecb_trim_check
+  description: ECB TRIM internal model investigation areas
+- name: ifrs9_ecl_audit
+  description: IFRS 9 Expected Credit Loss AI model governance
+- name: frtb_market_risk
+  description: FRTB internal model approach AI/ML usage check
+- name: search_regulation
+  description: Full-text search across 410+ articles of real EU regulation text (EUR-Lex
+    verified).
+- name: list_regulations_in_db
+  description: List all regulations in the local EUR-Lex FTS5 database.
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

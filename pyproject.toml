@@ -4,7 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "basel-ai-overlay-mcp"
-version = "1.0.0"
+readme = "README.md"
+version = "1.0.5"
 description = "Basel III + SR 11-7 + ECB TRIM AI/ML model risk management for banks deploying AI in credit, capital, treasury, AML/CFT."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
@@ -20,7 +21,7 @@ dependencies = ["mcp>=1.0.0"]
 
 [project.urls]
 Homepage = "https://meok.ai"
-Repository = "https://github.com/meok-ai-labs/basel-ai-overlay-mcp"
+Repository = "https://github.com/CSOAI-ORG/basel-ai-overlay-mcp"
 
 [tool.hatch.build.targets.wheel]
 packages = ["."]
