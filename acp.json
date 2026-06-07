@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "basel-ai-overlay-mcp",
+    "description": "Basel III + SR 11-7 + ECB TRIM AI/ML model risk management for banks deploying AI in credit, cap...",
+    "version": "1.0.5",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "basel-ai-overlay-mcp"
+      }
+    ],
+    "capabilities": [
+      "model_risk_tier",
+      "validation_requirements",
+      "ecb_trim_check",
+      "ifrs9_ecl_audit",
+      "frtb_market_risk",
+      "search_regulation",
+      "list_regulations_in_db"
+    ]
+  }
+}
