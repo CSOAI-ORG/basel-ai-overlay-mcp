@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "basel-ai-overlay-mcp"
 readme = "README.md"
-version = "1.0.5"
+version = "1.0.8"
 description = "Basel III + SR 11-7 + ECB TRIM AI/ML model risk management for banks deploying AI in credit, capital, treasury, AML/CFT."
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
