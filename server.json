@@ -5,7 +5,8 @@
   "description": "Basel III + SR 11-7 + ECB TRIM AI/ML model risk management for banks deploying AI in credit, cap...",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/basel-ai-overlay-mcp",
-    "source": "github"
+    "source": "github",
+    "id": "1238469176"
   },
   "packages": [
     {
