@@ -3,7 +3,7 @@ description: 'MCP server: basel-ai-overlay-mcp'
 version: 1.0.5
 author: MEOK AI Labs
 homepage: https://safetyof.ai
-repository: https://github.com/MEOK-AI-Labs/basel-ai-overlay-mcp
+repository: https://github.com/CSOAI-ORG/basel-ai-overlay-mcp
 license: MIT
 categories:
 - compliance
